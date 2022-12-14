@@ -1,6 +1,6 @@
-import java.net.URI;
+import java.net.URI; // Тут лишний импорт
 import java.util.Scanner;
-import java.io.IOException;
+import java.io.IOException; // Тут тоже, а в остальном всё супер!
 
 public class DepositCalculator {
     double calculateComplexPercent(double amount, double yearRate, int depositPeriod) {
